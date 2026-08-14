@@ -1,0 +1,8 @@
+import math import random
+print("--- Task 3: Rounding Showdown -- - ")
+print(f"ceil -> {math.ceil(-7.8)}")
+princ(f"floor -> {math. floor (-7.8)}") 
+print(f"trunc -> {math. trunc(-7.8)}")
+#Why floor () and trunc() give different result for negative number
+#Because floor) is moves down the numberline away from zero and trunc() is chopped of decimal part to ward zero 
+print()
